@@ -26,7 +26,7 @@ int main() {
         // Compare guess to random number and give feedback
         if (userGuess < randomNumber) {
             printf("Your guess is too low. Try again!\n");
-        } else if (userGuess > randomNumber) {
+        } else if (userGuess > randomNumber) { 
             printf("Your guess is too high. Try again!\n");
         } else {
             printf("Congratulations! You've guessed the number correctly.\n");
